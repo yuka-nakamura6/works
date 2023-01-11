@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>土岐プラネタリウム</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/top.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/top.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+</head>
+
+
+
+<body>
+
+    <header class="hp ds_f jc_sb">
+        <a class="star" href="#"><img src="assets/images/common/logo.png" alt="土岐プラネタリウム"></a>
+
+        <nav class="g_nav">
+            <ul class="ds_f">
+                <li><a class="star" href="content/index.html">上映スケジュール</a></li>
+                <li><a class="star" href="about/index.html">ご利用案内</a></li>
+                <li><a class="star" href="access/index.html">アクセス</a></li>
+                <li><a class="star" href="facility/index.html">施設案内</a></li>
+                <li><a class="star" href="question/question.html">よくある質問</a></li>
+            </ul>
+        </nav>
+
+
+
+        <!-- SP用 -->
+        <nav class="nav_s">
+
+            <button class="fixed_hum"><img src="assets/images/common/hum.png" alt="ハンバーガーボタン"></button>
+
+            <ul class="hum">
+                <li><a href="#">Top</a></li>
+                <li><a href="content/index.html">上映スケジュール</a></li>
+                <li><a href="about/index.html">ご利用案内</a></li>
+                <li><a href="access/index.html">アクセス</a></li>
+                <li><a href="facility/index.html">施設案内</a></li>
+                <li><a href="question/question.html">よくある質問</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="btn up">
+        <a href="about/index.html#sec"><img src="assets/images/common/btn.png" alt="予約ボタン"></a>
+    </div>
+
+    <div class="btn_s">
+        <a href="about/index.html#sec"><img src="assets/images/common/btn_s.png" alt="予約ボタン"></a>
+    </div>
+
+    <!-- ここまで共通 -->
+
+
+
+    <main class="container">
+
+
+        <div class="layer">
+            <img src="assets/images/top/mv.jpg" alt="プラネタリウムの写真">
+            <h1>満天の星空がここにはあります</h1>
+            <p>2022/12/1 土岐プラネタリウム、オープン</p>
+        </div>
+
+
+        <section class="content fadein">
+            <div class="inner">
+
+                <div class="h2">
+                    <h2>上映作品</h2>
+                </div>
+
+                <p class="slogan">「広大な宇宙で、星空の中を旅する」<br>
+                    そんな体験をあなたにお届けいたします</p>
+
+                <ul class="slider">
+                    <li><a href="content/index.html#sec1"><img src="assets/images/top/photo1.jpg" alt="銀河鉄道の旅"></a></li>
+                    <li><a href="content/index.html#sec2"><img src="assets/images/top/photo2.png"
+                                alt="よぞらに燃える、よだかの星"></a></li>
+                    <li><a href="content/index.html#sec4"><img src="assets/images/top/photo4.jpg" alt="星と眠る島"></a></li>
+                    <li><a href="content/index.html#sec3"><img src="assets/images/top/photo5.jpg" alt="クリスマスキャロル"></a></li>
+                </ul>
+
+                <p class="explain">上映作品は時期によって異なります。<br>
+                    作品詳細、上映スケジュールなどは下のボタンからご確認ください。</p>
+
+                <a class="down" href="content/index.html">詳細はこちらをクリック！</a>
+            </div>
+        </section>
+
+        <section class="only fadein">
+            <div class="inner">
+
+                <div class="h2">
+                    <h2>期間限定上映作品</h2>
+                </div>
+
+                <p class="slogan">季節によって変化する、<br>
+                    きらびやかな星たちをお楽しみください</p>
+
+                <p class="text"><span>12</span>月限定の上映作品はこちら</p>
+
+                <a href="content/index.html#sec3"><img src="assets/images/top/photo5.jpg" alt="クリスマスキャロル"></a>
+
+                <p class="explain">冬の星空にまつわるお話を、クリスマスソングと共にお届けします。<br>
+                    クリスマスは土岐プラネタリウムで癒しのひと時を過ごしませんか？
+                </p>
+            </div>
+        </section>
+
+
+        <section class="news fadein">
+            <div class="inner">
+                <div class="h2">
+                    <h2>新着情報</h2>
+                </div>
+
+
+                <ul class="ds_f">
+                    <li class="up"><a href="#"><img src="assets/images/top/banner1.png" alt="クリスマスキャロル"></a></li>
+                    <li class="up"><a href="#"><img src="assets/images/top/banner2.png" alt="オープン記念"></a></li>   
+                </ul>
+
+                <ul class="ds_f">
+                    <li class="up"><a href="#"><img src="assets/images/top/banner3.png" alt="クリスマスキャロル"></a></li>
+                    <li class="up"><a href="#"><img src="assets/images/top/banner4.png" alt="オープン記念"></a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <!-- ここから共通 -->
+    <footer>
+        <div class="inner">
+            <div>
+                <p><img src="assets/images/common/logo.png" alt="土岐プラネタリウム"></p>
+            </div>
+
+            <div class="ds_f">
+                <div class="adress">
+                    <dl class="ds_f">
+                        <dt>住所</dt>
+                        <dd>〒509-5122<br>
+                            岐阜県土岐市土岐津町<br>
+                            土岐口1111</dd>
+                    </dl>
+
+                    <dl class="ds_f">
+                        <dt>営業時間</dt>
+                        <dd>10:00～21:00</dd>
+                    </dl>
+
+                    <p>お問い合わせはこちらから<br>
+                        <span>☎0572-11-1111</span>
+                    </p>
+                </div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.5392483046626!2d137.16871205343892!3d35.337709936778786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60034170a9c5163d%3A0x5394b3e13c3294a8!2z44CSNTA5LTUxMjMg5bKQ6Zic55yM5Zyf5bKQ5biC5Zyf5bKQ5Y-j5Y2X55S6!5e0!3m2!1sja!2sjp!4v1666160926317!5m2!1sja!2sjp"
+                    width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <nav class="f_nav">
+                    <ul>
+                        <li><a class="star" href="#">トップページ</a></li>
+                        <li><a class="star" href="content/index.html">上映スケジュール</a></li>
+                        <li><a class="star" href="about/index.html">ご利用案内</a></li>
+                        <li><a class="star" href="access/index.html">アクセス</a></li>
+                        <li><a class="star" href="facility/index.html">施設案内</a></li>
+                        <li><a class="star" href="question/question.html">よくある質問</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <p class="small"><small>&copy;tokiplanetarium</small></p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
