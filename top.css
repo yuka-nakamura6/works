@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+body{
+    background-color: #000;
+    color: #FFF;
+}
+
+
+/* MV----------------- */
+
+.layer {
+    position: relative;
+    margin-bottom: 50px;
+    }
+
+
+.layer h1{
+    position: absolute;
+    color: #fff;
+    font-size: 60px;
+    top: 47%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 960px;
+  text-align: center;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+    }
+
+
+.layer p{
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 960px;
+  text-align: center;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+  text-shadow: 5px 5px 3px #fff;
+} 
+
+.layer img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* content---------- */
+main .content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main .slogan{
+    margin-bottom: 50px;
+    letter-spacing: 0.8em;
+}
+
+main .content ul li a{
+    transition: 0.3s;
+}
+
+main .content ul li a:hover{
+    opacity: 0.8;
+}
+
+main .content ul li a img{
+    border-radius: 10px;
+}
+
+main .explain{
+    margin-bottom: 15px;
+    padding-top: 30px;
+    letter-spacing: 0.2em;
+}
+
+
+
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    margin:0 auto;
+}
+
+.slider img {
+    height:auto;
+    margin: 0 auto;
+}
+
+.slider .slick-slide {
+  transform: scale(1);/*左右の画像のサイズを80%に*/
+  transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
+}
+
+.slider .slick-slide.slick-center{
+  transform: scale(1);/*中央の画像のサイズだけ等倍に*/
+  opacity: 1;/*透過なし*/
+}
+
+.down {
+	border-bottom: 0.1875em solid #909090;
+	background-color: #c4c439;
+    border-radius: 10px;
+    font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	padding: 0.6em 2em;
+	margin: 0 0 1em;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.down:hover {
+	border-bottom-color: transparent;
+	transform: translateY(0.1875em);
+}
+
+
+
+/* only------------ */
+
+main .only{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #030d29;
+}
+
+main .only .text{
+    margin-bottom: 50px;
+}
+
+main .only span{
+    font-family: "HG明朝E",'游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+    padding: 20px;
+    color: #000;
+    font-size: 26px;
+    background-image: url(../images/top/star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+main .only a{
+    transition: 0.3s;
+}
+
+main .only a:hover{
+    opacity: 0.8;
+}
+
+main .only a img{
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* news------------ */
+main .news{
+    text-align: center;
+    background-image: url(../images/top/bg_erth.png),url(../images/top/news_bg.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: center,center;
+    background-size: contain,cover;
+    color: #fff;
+    padding-bottom:50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+main .news .h2 h2{
+    border-bottom: 5px dashed #fff;
+}
+
+main .news ul{
+    justify-content: space-around;
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main .news ul li img{
+    border-radius: 10px;
+}
+
+
+/* レスポンシブ------------- */
+@media screen and (max-width:640px) {
+
+
+    .layer{
+        margin-bottom: 30px;
+    }
+
+    .layer h1{
+        width: 100%;
+        font-size: 20px;
+        top:45%;
+    }
+
+    .layer p{
+        width: 100%;
+        font-size: 16px;
+        top: 58%;
+    }
+
+
+
+    main .slogan{
+        margin-bottom: 30px;
+        letter-spacing: 0.4em;
+        font-size: 14px;
+    }
+
+    main .explain{
+        font-size: 12px;
+        width: 70%;
+        margin: 0 auto 15px; 
+    }
+
+    main .content{
+        margin-bottom: 40px;
+    }
+
+    main .content ul li a img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    main .only a img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+    main .news .inner{
+        padding: 0;
+    }
+
+
+    main .news{
+        background-size: contain,cover;
+        background-position: top center,center;
+        height: auto,auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    main .news .box{
+        width: auto;
+        padding: 0;
+        padding: 10px;
+    }
+
+    
+
+
+    main .news .h2{
+        padding-top: 20px;
+    }
+
+    main .news ul{
+        flex-direction: row;
+        padding-bottom: 20px;
+        width: auto;
+    }
+
+    main .news ul img{
+        width: 165px;
+    }
+}
