@@ -59,6 +59,11 @@ main .content dl a{
   color: #4b77b1;
 }
 
+main .h2 h2{
+  color:#515151;
+  border-bottom: 5px dashed #515151;
+}
+
 main h3{
     color: #181866;
     margin-bottom: 15px;
